@@ -1,0 +1,49 @@
+baseURL = "https://abeyangxiao-cmd.github.io/blog/"
+title = "老杨的博客"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    title = "老杨的博客"
+    [languages.zh.params]
+      description = "老杨的个人博客 - 记录生活与技术"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Abe's Blog"
+    [languages.en.params]
+      description = "Abe's personal blog"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  [params.homeInfoParams]
+    Title = "你好 👋 欢迎来到老杨的博客"
+    Content = "记录生活、技术与思考"
+
+[menu]
+  [[menu.main]]
+    identifier = "archive"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params.author]
+  name = "老杨"
