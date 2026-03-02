@@ -2,6 +2,7 @@
 title: "Hello World"
 date: 2026-03-02T14:25:00+08:00
 draft: false
+translationKey: "hello-world"
 tags: ["blog", "first-post"]
 summary: "The first post on Abe's Blog"
 ---

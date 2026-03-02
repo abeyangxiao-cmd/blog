@@ -2,6 +2,7 @@
 title: "你好世界"
 date: 2026-03-02T14:25:00+08:00
 draft: false
+translationKey: "hello-world"
 tags: ["博客", "第一篇"]
 summary: "这是老杨的博客第一篇文章"
 ---
