@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
       description = "Abe's personal blog"
       [languages.en.params.homeInfoParams]
         Title = "My Fate Is Mine to Command"
-        Content = "Abe's Blog — Life, Tech & Thoughts"
+        Content = "![Abe Brand Banner](/blog/images/brand-banner.svg)\n\nAbe's Blog — Life, Tech & Thoughts"
   [[languages.en.menu.main]]
     identifier = "search"
     name = "Search"
