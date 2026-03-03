@@ -1,0 +1,97 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.4" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="glow1"><feGaussianBlur stdDeviation="32"/></filter>
+    <filter id="glow2"><feGaussianBlur stdDeviation="48"/></filter>
+    <filter id="glow3"><feGaussianBlur stdDeviation="18"/></filter>
+    <linearGradient id="lineG" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#7C3AED" stop-opacity="0.6"/>
+      <stop offset="0.7" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="node1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="node3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#16A34A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#cbg)"/>
+
+  <!-- Abstract glow orbs -->
+  <circle cx="200" cy="180" r="180" fill="#7C3AED" opacity="0.12" filter="url(#glow2)"/>
+  <circle cx="900" cy="420" r="200" fill="#0EA5E9" opacity="0.1" filter="url(#glow2)"/>
+  <circle cx="600" cy="300" r="140" fill="#4ADE80" opacity="0.06" filter="url(#glow2)"/>
+
+  <!-- Network lines (abstract connections) -->
+  <line x1="180" y1="200" x2="440" y2="280" stroke="#7C3AED" stroke-width="1.5" opacity="0.3"/>
+  <line x1="440" y1="280" x2="600" y2="190" stroke="#6366F1" stroke-width="1.5" opacity="0.25"/>
+  <line x1="600" y1="190" x2="820" y2="260" stroke="#38BDF8" stroke-width="1.5" opacity="0.3"/>
+  <line x1="820" y1="260" x2="1020" y2="350" stroke="#0EA5E9" stroke-width="1.5" opacity="0.25"/>
+  <line x1="440" y1="280" x2="520" y2="400" stroke="#A78BFA" stroke-width="1.2" opacity="0.2"/>
+  <line x1="520" y1="400" x2="740" y2="380" stroke="#4ADE80" stroke-width="1.2" opacity="0.2"/>
+  <line x1="740" y1="380" x2="820" y2="260" stroke="#38BDF8" stroke-width="1.2" opacity="0.2"/>
+  <line x1="600" y1="190" x2="520" y2="400" stroke="#6366F1" stroke-width="1" opacity="0.15"/>
+  <line x1="180" y1="200" x2="300" y2="380" stroke="#7C3AED" stroke-width="1" opacity="0.15"/>
+  <line x1="300" y1="380" x2="520" y2="400" stroke="#A78BFA" stroke-width="1" opacity="0.15"/>
+  <line x1="1020" y1="350" x2="950" y2="480" stroke="#0EA5E9" stroke-width="1" opacity="0.15"/>
+  <line x1="740" y1="380" x2="950" y2="480" stroke="#4ADE80" stroke-width="1" opacity="0.15"/>
+
+  <!-- Node dots with glow -->
+  <circle cx="180" cy="200" r="28" fill="url(#node1)" filter="url(#glow3)"/>
+  <circle cx="180" cy="200" r="6" fill="#A78BFA"/>
+  
+  <circle cx="440" cy="280" r="32" fill="url(#node1)" filter="url(#glow3)"/>
+  <circle cx="440" cy="280" r="7" fill="#A78BFA"/>
+
+  <circle cx="600" cy="190" r="36" fill="url(#node2)" filter="url(#glow3)"/>
+  <circle cx="600" cy="190" r="8" fill="#38BDF8"/>
+
+  <circle cx="820" cy="260" r="30" fill="url(#node2)" filter="url(#glow3)"/>
+  <circle cx="820" cy="260" r="7" fill="#38BDF8"/>
+
+  <circle cx="1020" cy="350" r="26" fill="url(#node2)" filter="url(#glow3)"/>
+  <circle cx="1020" cy="350" r="6" fill="#38BDF8"/>
+
+  <circle cx="520" cy="400" r="28" fill="url(#node3)" filter="url(#glow3)"/>
+  <circle cx="520" cy="400" r="6" fill="#4ADE80"/>
+
+  <circle cx="740" cy="380" r="24" fill="url(#node3)" filter="url(#glow3)"/>
+  <circle cx="740" cy="380" r="5" fill="#4ADE80"/>
+
+  <circle cx="300" cy="380" r="20" fill="url(#node1)" filter="url(#glow3)"/>
+  <circle cx="300" cy="380" r="4" fill="#C4B5FD"/>
+
+  <circle cx="950" cy="480" r="22" fill="url(#node2)" filter="url(#glow3)"/>
+  <circle cx="950" cy="480" r="5" fill="#7DD3FC"/>
+
+  <!-- Subtle horizontal scan line -->
+  <rect x="0" y="310" width="1200" height="2" fill="url(#lineG)" opacity="0.4"/>
+
+  <!-- Small floating particles -->
+  <circle cx="350" cy="150" r="2" fill="#A78BFA" opacity="0.5"/>
+  <circle cx="700" cy="130" r="1.5" fill="#38BDF8" opacity="0.4"/>
+  <circle cx="880" cy="170" r="2" fill="#38BDF8" opacity="0.3"/>
+  <circle cx="250" cy="450" r="1.5" fill="#7C3AED" opacity="0.4"/>
+  <circle cx="650" cy="480" r="2" fill="#4ADE80" opacity="0.35"/>
+  <circle cx="1100" cy="250" r="1.5" fill="#0EA5E9" opacity="0.3"/>
+  <circle cx="130" cy="320" r="2" fill="#A78BFA" opacity="0.3"/>
+  <circle cx="1050" cy="200" r="1.5" fill="#38BDF8" opacity="0.35"/>
+
+  <!-- Title text -->
+  <text x="600" y="560" text-anchor="middle" fill="#F8FAFC" font-size="38" font-weight="700" font-family="system-ui, -apple-system, 'PingFang SC', sans-serif" letter-spacing="3" opacity="0.92">AI 日报系统 · 从信息到洞察</text>
+  <text x="600" y="598" text-anchor="middle" fill="#94A3B8" font-size="18" font-weight="400" font-family="system-ui, -apple-system, sans-serif" letter-spacing="1" opacity="0.7">Collect · Filter · Deliver — Automated Daily Intelligence</text>
+</svg>

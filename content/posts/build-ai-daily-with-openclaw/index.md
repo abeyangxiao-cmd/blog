@@ -7,8 +7,8 @@ tags: ["AI", "OpenClaw", "自动化", "日报", "Agent"]
 categories: ["实践"]
 description: "用 OpenClaw + Mac Mini 搭建全自动 AI 日报系统，每天 6 点从 Twitter 和海外媒体抓取、筛选、推送。记录完整搭建过程和关键设计决策。"
 cover:
-  image: "images/architecture.svg"
-  alt: "AI 日报系统架构图"
+  image: "images/cover.svg"
+  alt: "AI 日报系统 · 从信息到洞察"
 ---
 
 ## 结论先行

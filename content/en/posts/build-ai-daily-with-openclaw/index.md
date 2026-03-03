@@ -7,8 +7,8 @@ tags: ["AI", "OpenClaw", "Automation", "Daily Digest", "Agent"]
 categories: ["Practice"]
 description: "How I built a fully automated AI news digest using OpenClaw + Mac Mini. Every day at 6AM, it scrapes Twitter KOLs and overseas media, filters and ranks the news, and pushes a summary to Lark with a detailed Gist report."
 cover:
-  image: "images/architecture.svg"
-  alt: "AI Daily Digest System Architecture"
+  image: "images/cover.svg"
+  alt: "AI Daily Digest — From Information to Insight"
 ---
 
 ## TL;DR
