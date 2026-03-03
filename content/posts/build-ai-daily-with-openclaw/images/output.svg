@@ -1,0 +1,42 @@
+<svg width="960" height="320" viewBox="0 0 960 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="960" y2="320">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="ds5"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.2"/></filter>
+    <marker id="ar5" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#64748B"/></marker>
+  </defs>
+  <rect width="960" height="320" rx="16" fill="url(#bg5)"/>
+
+  <text x="480" y="38" text-anchor="middle" fill="#F8FAFC" font-size="20" font-weight="700" font-family="system-ui">双渠道输出模型</text>
+
+  <!-- Center: Agent -->
+  <rect x="350" y="60" width="260" height="48" rx="10" fill="#312E81" filter="url(#ds5)"/>
+  <text x="480" y="90" text-anchor="middle" fill="#A78BFA" font-size="14" font-weight="700" font-family="system-ui">🧠 小b 处理完成</text>
+
+  <!-- Split arrows -->
+  <path d="M400 108 L260 150" stroke="#64748B" stroke-width="2" marker-end="url(#ar5)"/>
+  <path d="M560 108 L700 150" stroke="#64748B" stroke-width="2" marker-end="url(#ar5)"/>
+
+  <!-- Left: Lark -->
+  <rect x="80" y="150" width="360" height="130" rx="12" fill="#14532D" filter="url(#ds5)"/>
+  <text x="260" y="180" text-anchor="middle" fill="#4ADE80" font-size="16" font-weight="700" font-family="system-ui">💬 Lark 摘要版</text>
+
+  <text x="110" y="208" fill="#BBF7D0" font-size="12" font-family="system-ui">✦ 8-10 条精选，按重要性排序</text>
+  <text x="110" y="228" fill="#BBF7D0" font-size="12" font-family="system-ui">✦ 每条：标题 + 2-3 句简介</text>
+  <text x="110" y="248" fill="#BBF7D0" font-size="12" font-family="system-ui">✦ 末尾附 Gist 详细版链接</text>
+  <text x="110" y="268" fill="#86EFAC" font-size="11" font-weight="600" font-family="system-ui">⏱ 阅读时间：1 分钟</text>
+
+  <!-- Right: Gist -->
+  <rect x="520" y="150" width="360" height="130" rx="12" fill="#1E3A5F" filter="url(#ds5)"/>
+  <text x="700" y="180" text-anchor="middle" fill="#38BDF8" font-size="16" font-weight="700" font-family="system-ui">📄 Gist 详细版</text>
+
+  <text x="550" y="208" fill="#CBD5E1" font-size="12" font-family="system-ui">✦ 每条：背景分析 + 影响评估</text>
+  <text x="550" y="228" fill="#CBD5E1" font-size="12" font-family="system-ui">✦ 附原文链接 + 推文链接</text>
+  <text x="550" y="248" fill="#CBD5E1" font-size="12" font-family="system-ui">✦ 纯 Markdown，永久存档</text>
+  <text x="550" y="268" fill="#93C5FD" font-size="11" font-weight="600" font-family="system-ui">⏱ 深度阅读：10 分钟</text>
+
+  <!-- Bottom note -->
+  <text x="480" y="308" text-anchor="middle" fill="#64748B" font-size="11" font-family="system-ui">速览选 Lark · 深入选 Gist · 两个渠道互补，不重复</text>
+</svg>
