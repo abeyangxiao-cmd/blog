@@ -9,25 +9,25 @@
   <rect width="960" height="480" rx="16" fill="url(#g1)"/>
 
   <!-- Title -->
-  <text x="480" y="44" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="700" font-family="system-ui, -apple-system, sans-serif">AI 日报系统 · 整体架构</text>
+  <text x="480" y="44" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="700" font-family="system-ui, -apple-system, sans-serif">AI Daily Digest · System Architecture</text>
 
   <!-- Layer labels -->
-  <text x="60" y="120" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">采集层</text>
-  <text x="60" y="250" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">处理层</text>
-  <text x="60" y="380" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">输出层</text>
+  <text x="60" y="120" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">Collection Layer</text>
+  <text x="60" y="250" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">Processing Layer</text>
+  <text x="60" y="380" fill="#94A3B8" font-size="13" font-weight="600" font-family="system-ui">Output Layer</text>
 
   <!-- Collect: 3 boxes -->
   <rect x="140" y="80" width="220" height="64" rx="10" fill="#1E3A5F" filter="url(#ds)"/>
   <text x="250" y="107" text-anchor="middle" fill="#38BDF8" font-size="14" font-weight="700" font-family="system-ui">🐦 Twitter KOL</text>
-  <text x="250" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">30+ 账号 · 核心信息源</text>
+  <text x="250" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">30+ accounts · Core source</text>
 
   <rect x="380" y="80" width="220" height="64" rx="10" fill="#1E3A5F" filter="url(#ds)"/>
-  <text x="490" y="107" text-anchor="middle" fill="#38BDF8" font-size="14" font-weight="700" font-family="system-ui">📰 海外媒体</text>
-  <text x="490" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">TechCrunch · The Verge · 4 站</text>
+  <text x="490" y="107" text-anchor="middle" fill="#38BDF8" font-size="14" font-weight="700" font-family="system-ui">📰 Overseas Media</text>
+  <text x="490" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">TechCrunch · The Verge · 4 sites</text>
 
   <rect x="620" y="80" width="220" height="64" rx="10" fill="#1E3A5F" filter="url(#ds)"/>
-  <text x="730" y="107" text-anchor="middle" fill="#38BDF8" font-size="14" font-weight="700" font-family="system-ui">🔍 Brave 搜索</text>
-  <text x="730" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">中英双语 · 兜底补充</text>
+  <text x="730" y="107" text-anchor="middle" fill="#38BDF8" font-size="14" font-weight="700" font-family="system-ui">🔍 Brave Search</text>
+  <text x="730" y="128" text-anchor="middle" fill="#CBD5E1" font-size="12" font-family="system-ui">Bilingual · Fallback</text>
 
   <!-- Arrows down -->
   <path d="M250 144 L250 170 L490 170 L490 210" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
@@ -38,9 +38,9 @@
 
   <!-- Process: center box -->
   <rect x="260" y="210" width="460" height="72" rx="12" fill="#312E81" filter="url(#ds)"/>
-  <text x="490" y="238" text-anchor="middle" fill="#A78BFA" font-size="15" font-weight="700" font-family="system-ui">🧠 信息收集员小b（Agent）</text>
-  <text x="490" y="260" text-anchor="middle" fill="#C4B5FD" font-size="12" font-family="system-ui">去重 → 时间窗过滤 → 优先级排序 → 格式化输出</text>
-  <text x="490" y="275" text-anchor="middle" fill="#7C3AED" font-size="11" font-family="system-ui">每天 06:00 自动触发 · 防风控策略</text>
+  <text x="490" y="238" text-anchor="middle" fill="#A78BFA" font-size="15" font-weight="700" font-family="system-ui">🧠 Collector Bot b (Agent)</text>
+  <text x="490" y="260" text-anchor="middle" fill="#C4B5FD" font-size="12" font-family="system-ui">Dedup → Time Window Filter → Priority Ranking → Formatted Output</text>
+  <text x="490" y="275" text-anchor="middle" fill="#7C3AED" font-size="11" font-family="system-ui">Daily 06:00 auto-trigger · Anti-rate-limit</text>
 
   <!-- Arrows down to output -->
   <path d="M390 282 L390 340" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
@@ -48,19 +48,19 @@
 
   <!-- Output: 2 boxes -->
   <rect x="260" y="340" width="220" height="72" rx="10" fill="#14532D" filter="url(#ds)"/>
-  <text x="370" y="368" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="system-ui">💬 Lark 摘要版</text>
-  <text x="370" y="389" text-anchor="middle" fill="#BBF7D0" font-size="12" font-family="system-ui">8-10 条 · 1 分钟速览</text>
-  <text x="370" y="404" text-anchor="middle" fill="#86EFAC" font-size="11" font-family="system-ui">Webhook 自动推送</text>
+  <text x="370" y="368" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="system-ui">💬 Lark Summary</text>
+  <text x="370" y="389" text-anchor="middle" fill="#BBF7D0" font-size="12" font-family="system-ui">8-10 items · 1-min overview</text>
+  <text x="370" y="404" text-anchor="middle" fill="#86EFAC" font-size="11" font-family="system-ui">Webhook auto-push</text>
 
   <rect x="500" y="340" width="220" height="72" rx="10" fill="#14532D" filter="url(#ds)"/>
-  <text x="610" y="368" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="system-ui">📄 Gist 详细版</text>
-  <text x="610" y="389" text-anchor="middle" fill="#BBF7D0" font-size="12" font-family="system-ui">深度分析 · 来源链接</text>
-  <text x="610" y="404" text-anchor="middle" fill="#86EFAC" font-size="11" font-family="system-ui">永久存档 · 可回溯</text>
+  <text x="610" y="368" text-anchor="middle" fill="#4ADE80" font-size="14" font-weight="700" font-family="system-ui">📄 Gist Detailed Report</text>
+  <text x="610" y="389" text-anchor="middle" fill="#BBF7D0" font-size="12" font-family="system-ui">Deep analysis · Source links</text>
+  <text x="610" y="404" text-anchor="middle" fill="#86EFAC" font-size="11" font-family="system-ui">Permanent archive · Traceable</text>
 
   <!-- TG reminder -->
   <rect x="740" y="352" width="160" height="48" rx="8" fill="#1C1917" filter="url(#ds)"/>
-  <text x="820" y="376" text-anchor="middle" fill="#FB923C" font-size="12" font-weight="600" font-family="system-ui">📱 TG 提醒</text>
-  <text x="820" y="393" text-anchor="middle" fill="#FDBA74" font-size="11" font-family="system-ui">"日报已发送"</text>
+  <text x="820" y="376" text-anchor="middle" fill="#FB923C" font-size="12" font-weight="600" font-family="system-ui">📱 TG Reminder</text>
+  <text x="820" y="393" text-anchor="middle" fill="#FDBA74" font-size="11" font-family="system-ui">"Digest sent"</text>
   <path d="M720 376 L740 376" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- Bottom note -->

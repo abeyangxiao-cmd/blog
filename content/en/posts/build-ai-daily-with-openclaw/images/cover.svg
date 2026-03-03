@@ -76,6 +76,6 @@
   <rect x="0" y="310" width="1200" height="2" fill="url(#lineG)" opacity="0.4"/>
 
   <!-- Title -->
-  <text x="600" y="555" text-anchor="middle" fill="#F8FAFC" font-size="36" font-weight="700" font-family="system-ui, -apple-system, 'PingFang SC', sans-serif" letter-spacing="3" opacity="0.92">AI 日报系统 · 从信息到洞察</text>
+  <text x="600" y="555" text-anchor="middle" fill="#F8FAFC" font-size="36" font-weight="700" font-family="system-ui, -apple-system, 'PingFang SC', sans-serif" letter-spacing="3" opacity="0.92">AI Daily Digest · From Information to Insight</text>
   <text x="600" y="593" text-anchor="middle" fill="#94A3B8" font-size="17" font-weight="400" font-family="system-ui" letter-spacing="1" opacity="0.7">Collect · Filter · Deliver — Automated Daily Intelligence</text>
 </svg>
